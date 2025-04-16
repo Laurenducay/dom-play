@@ -29,10 +29,10 @@ for(const mySpan of spans){
 function highlightActor(myActor) {
     for(const mySpan of spans){
         if(myActor == mySpan.dataset.actor) {
-            mySpan.style.backgroundColor = "white";
+            mySpan.style.backgroundColor = "rgb(127, 255, 212)";
         }
         else {
-            mySpan.style.backgroundColor = "orange";
+            mySpan.style.backgroundColor = "white";
         }
     }
 }
@@ -42,11 +42,11 @@ function highlightActor(myActor) {
 
 function highlight(el){
 
-    if(el.style.backgroundColor == "orange") {
+    if(el.style.backgroundColor == "rgb(127, 255, 212)") {
         el.style.backgroundColor = "white";
     }
     else {
-        el.style.backgroundColor = "orange";
+        el.style.backgroundColor = "rgb(127, 255, 212)";
     }
 }
 
